@@ -32,7 +32,7 @@ public class GreetingController {
     public ResponseEntity greeting(@RequestParam(value="name", defaultValue="World") String name) {
         // return new Greeting(counter.incrementAndGet(),
         //                     String.format(template, name));
-         return new ResponseEntity("automate everthing",HttpStatus.OK);
+         return new ResponseEntity("greetings",HttpStatus.OK);
     }
 
     @CrossOrigin
