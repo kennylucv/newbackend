@@ -16,7 +16,7 @@
         {
             "description": "The name for the application.",
             "name": "APPLICATION_NAME",
-            "value": "liberty-app",
+            "value": "backend",
             "required": true
         },
         {
@@ -118,6 +118,10 @@
                                     {
                                         "name": "LICENSE",
                                         "value": "${LICENSE}"
+                                    },
+                                    {
+                                        "name": "ENV",
+                                        "value": "dev"
                                     }
                                 ]
                             }
