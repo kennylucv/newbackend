@@ -21,7 +21,7 @@ public class UserModel {
     private ArrayList<String> accountTypes = new ArrayList<String>();
     private ArrayList<String> accountAmounts = new ArrayList<String>();
     
-    private String  mongoUser       = "admi";
+    private String  mongoUser       = "admin";
     private String  mongoPass       = "admin";
     private String  databaseName    = "sampledb";
     //private String  databaseName    = "test_db";
